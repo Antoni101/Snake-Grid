@@ -1,0 +1,30 @@
+html, body {
+    background-color: tan;
+}
+#game {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid black;
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    background-color: white;
+    border-radius: 5px;
+}
+
+
+.grid-block {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    outline: none;
+    border: none;
+    transition: 0.5s;
+}
+
+
+#startBtn {
+    display: block;
+}
